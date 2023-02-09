@@ -22,7 +22,6 @@ a:active {
 	max-width: 1000px;
 	margin: 0 auto;
 	padding: 0 20px;
-	/* background: red; */
 }
 .flex {
 	display: flex;
@@ -34,15 +33,15 @@ a:active {
 /* header */
 /* ******* */
 header {
-	padding: 5px 0;
+	padding: 10px 0;
 	position: fixed;
 	width: 100%;
 	border-bottom: 1px solid #bcbcbc;
 	overflow: hidden;
+	background: rgb(238 238 238 / 70%);
 }
 header .blur {
 	position: absolute;
-	background: #eee;
 	z-index: -1;
 	filter: blur(2px);
 	opacity: .9;	
@@ -50,6 +49,7 @@ header .blur {
 	height: 120%;
 	left: 0;
 	top: -10px;
+	backdrop-filter: blur(10px);
 }
 header .logo {
 	display: flex;
@@ -82,7 +82,7 @@ header nav a[download] {
 /* main */
 /* ******* */
 main {
-	min-height: calc(100vh - 147px);
+	min-height: calc(100vh - 84px);
 	padding: 114px 0 80px;
 }
 
@@ -122,12 +122,12 @@ main {
 .projects {
 	flex-wrap: wrap;
 	justify-content: center;
+	margin-bottom: -20px;
 }
 .projects .project {
-	width: calc(33% - 20px);
+	width: calc(33% - 30px);
 	border: 1px solid #dbdbdb;
-	margin: 0 10px;
-	margin-bottom: 20px;
+	margin: 0 15px 30px;
 }
 .projects .project p {
 	font-weight: 600;
@@ -171,12 +171,8 @@ footer {
 	/* ******* */
 	/* projects */
 	/* ******* */
-	.projects {
-		padding: 0 50px;
-	}
 	.projects .project {
-		width: calc(50% - 30px);
-		margin-bottom: 40px;
+    width: calc(50% - 30px);
 	}
 }
 
@@ -189,9 +185,10 @@ footer {
 	/* ******* */
 	.projects {
 		padding: 0 20px;
-	}	
+	}
 	.projects .project {
 		width: 100%;
+		margin: 0 0 40px;
 	}
 }
 
@@ -203,7 +200,6 @@ footer {
 	/* main */
 	/* ******* */
 	main {
-		min-height: calc(100vh - 127px);
 		padding: 94px 0 80px;
 	}	
 	/* ******* */
@@ -218,11 +214,5 @@ footer {
 	header nav a {
 		margin-left: 15px;
 		font-size: 18px;
-	}
-		/* ******* */
-	/* projects */
-	/* ******* */
-	.projects .project {
-		margin: 0;
 	}
 }
