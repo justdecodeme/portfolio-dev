@@ -65,7 +65,8 @@ header nav a[download] {
 /* main */
 /* ******* */
 main {
-	min-height: calc(100vh - 145px);
+	min-height: calc(100vh - 147px);
+	padding: 50px 0 80px;
 }
 
 /* ******* */
@@ -73,7 +74,7 @@ main {
 /* ******* */
 .filters {
 	display: flex;
-	margin: 50px 0;
+	margin-bottom: 40px;
 }
 .filters li {
 	background: #eee;
@@ -96,7 +97,6 @@ main {
 }
 .projects {
 	flex-wrap: wrap;
-	margin-bottom: 100px;
 }
 .projects .project {
 	width: calc(33% - 20px);
@@ -133,9 +133,6 @@ footer {
 /* ******* */
 /* About page */
 /* ******* */
-.about-page {
-	padding: 100px 0;
-}
 .about-page h1 {
 	font-weight: 800;
 	margin-bottom: 40px;
