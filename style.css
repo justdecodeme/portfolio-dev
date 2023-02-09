@@ -39,6 +39,7 @@ header {
 	border-bottom: 1px solid #bcbcbc;
 	overflow: hidden;
 	background: rgb(238 238 238 / 70%);
+	z-index: 9;
 }
 header .blur {
 	position: absolute;
@@ -71,6 +72,7 @@ header nav a:active {
 	color: #6c6c6c;
 }
 header nav a.active:hover,
+header nav a.active:active,
 header nav a.active {
 	color: #2e2e2e;
 }
