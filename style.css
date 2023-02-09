@@ -51,7 +51,10 @@ header .blur {
 	left: 0;
 	top: -10px;
 }
-header img {
+header .logo {
+	display: flex;
+}
+header .logo img {
 	width: 50px;
 	border-radius: 50%;
 }
@@ -206,7 +209,10 @@ footer {
 	/* ******* */
 	/* header */
 	/* ******* */
-	header img {
+	header {
+		padding: 7px 0;
+	}
+	header .logo img {
 		width: 40px;
 	}
 	header nav a {
