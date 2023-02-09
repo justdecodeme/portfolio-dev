@@ -216,6 +216,14 @@ footer {
 		font-size: 18px;
 	}
 	/* ******* */
+	/* filters */
+	/* ******* */
+	.filters li {
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+	}
+	/* ******* */
 	/* projects */
 	/* ******* */
 	.projects {
