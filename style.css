@@ -184,6 +184,9 @@ footer {
 	/* ******* */
 	/* projects */
 	/* ******* */
+	.projects {
+		padding: 0 20px;
+	}	
 	.projects .project {
 		width: 100%;
 	}
