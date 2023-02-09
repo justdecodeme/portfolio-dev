@@ -219,4 +219,10 @@ footer {
 		margin-left: 15px;
 		font-size: 18px;
 	}
+		/* ******* */
+	/* projects */
+	/* ******* */
+	.projects .project {
+		margin: 0;
+	}
 }
