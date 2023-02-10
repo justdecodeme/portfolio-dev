@@ -44,7 +44,7 @@ const projects = [
 		img: "4.png",
 		codeUrl: "https://github.com/justdecodeme/js-practice-01-change-bg",
 		liveUrl: "https://justdecodeme.github.io/js-practice-01-change-bg/",
-		tags: ['html', 'css']
+		tags: ['html', 'js']
 	},
 	{
 		name: "Slider App",
@@ -55,7 +55,21 @@ const projects = [
 	},
 	{
 		name: "Calculator App",
-		img: "4.png",
+		img: "6.png",
+		codeUrl: "https://github.com/justdecodeme/js-practice-01-change-bg",
+		liveUrl: "https://justdecodeme.github.io/js-practice-01-change-bg/",
+		tags: ['html']
+	},
+	{
+		name: "Slider App",
+		img: "7.png",
+		codeUrl: "https://github.com/justdecodeme/periodic-table",
+		liveUrl: "https://justdecodeme.github.io/periodic-table/day-01-20-periodic-table.html",
+		tags: ['css', 'js']
+	},
+	{
+		name: "Calculator App",
+		img: "8.png",
 		codeUrl: "https://github.com/justdecodeme/js-practice-01-change-bg",
 		liveUrl: "https://justdecodeme.github.io/js-practice-01-change-bg/",
 		tags: ['html', 'js']
@@ -66,20 +80,6 @@ const projects = [
 		codeUrl: "https://github.com/justdecodeme/periodic-table",
 		liveUrl: "https://justdecodeme.github.io/periodic-table/day-01-20-periodic-table.html",
 		tags: ['js']
-	},
-	{
-		name: "Calculator App",
-		img: "4.png",
-		codeUrl: "https://github.com/justdecodeme/js-practice-01-change-bg",
-		liveUrl: "https://justdecodeme.github.io/js-practice-01-change-bg/",
-		tags: ['illustrator', 'photoshop']
-	},
-	{
-		name: "Slider App",
-		img: "5.png",
-		codeUrl: "https://github.com/justdecodeme/periodic-table",
-		liveUrl: "https://justdecodeme.github.io/periodic-table/day-01-20-periodic-table.html",
-		tags: ['photoshop']
 	},
 ];
 
