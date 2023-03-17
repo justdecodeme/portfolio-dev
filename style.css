@@ -125,6 +125,12 @@ main {
 	border: 1px solid #dbdbdb;
 	margin: 0 15px 30px;
 }
+.projects .project .project-img {
+	height: 160px;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
 .projects .project p {
 	font-weight: 600;
 }
@@ -133,6 +139,7 @@ main {
 	display: block;
 }
 .projects .project .content {
+	border-top: 1px solid #dbdbdb;
 	background: white;
 	padding: 20px;
 }

@@ -40,42 +40,49 @@ yearEl.innerHTML = new Date().getFullYear();
 /* *********** */
 const projects = [
 	{
-		name: "Calculator App",
-		img: "4.png",
-		codeUrl: "https://github.com/justdecodeme/js-practice-01-change-bg",
-		liveUrl: "https://justdecodeme.github.io/js-practice-01-change-bg/",
-		tags: ['html', 'js']
+		name: "ToDo App",
+		img: "todo.png",
+		codeUrl: "https://github.com/justdecodeme/portfolio/tree/master/projects/todo",
+		liveUrl: "https://justdecodeme.github.io/portfolio/projects/todo/",
+		tags: ['html', 'css', 'js']
 	},
 	{
 		name: "Slider App",
-		img: "5.png",
-		codeUrl: "https://github.com/justdecodeme/periodic-table",
-		liveUrl: "https://justdecodeme.github.io/periodic-table/day-01-20-periodic-table.html",
-		tags: ['css']
+		img: "slider.png",
+		codeUrl: "https://github.com/justdecodeme/portfolio/tree/master/projects/slider",
+		liveUrl: "https://justdecodeme.github.io/portfolio/projects/slider/",
+		tags: ['html', 'css', 'js']
 	},
 	{
-		name: "Calculator App",
-		img: "6.png",
+		name: "Change BG App",
+		img: "change-bg.png",
 		codeUrl: "https://github.com/justdecodeme/js-practice-01-change-bg",
 		liveUrl: "https://justdecodeme.github.io/js-practice-01-change-bg/",
 		tags: ['html']
 	},
 	{
-		name: "Slider App",
+		name: "Demo App",
 		img: "7.png",
 		codeUrl: "https://github.com/justdecodeme/periodic-table",
 		liveUrl: "https://justdecodeme.github.io/periodic-table/day-01-20-periodic-table.html",
 		tags: ['css', 'js']
 	},
 	{
-		name: "Calculator App",
+		name: "Demo App",
 		img: "8.png",
 		codeUrl: "https://github.com/justdecodeme/js-practice-01-change-bg",
 		liveUrl: "https://justdecodeme.github.io/js-practice-01-change-bg/",
 		tags: ['html', 'js']
 	},
 	{
-		name: "Slider App",
+		name: "Demo App",
+		img: "5.png",
+		codeUrl: "https://github.com/justdecodeme/periodic-table",
+		liveUrl: "https://justdecodeme.github.io/periodic-table/day-01-20-periodic-table.html",
+		tags: ['js']
+	},
+	{
+		name: "Demo App",
 		img: "5.png",
 		codeUrl: "https://github.com/justdecodeme/periodic-table",
 		liveUrl: "https://justdecodeme.github.io/periodic-table/day-01-20-periodic-table.html",
@@ -85,11 +92,15 @@ const projects = [
 
 function renderProjects(tag) {
 	let output = "";
+	// <img src="img/project/${projects[i].img}" alt="Calculator Project Image">
 
 	for (let i = 0; i < projects.length; i++) {
 		if(tag == 'all' || projects[i].tags.includes(tag)) {
 				output += `<div class="project">
-				<img src="img/project/${projects[i].img}" alt="Calculator Project Image">
+				<div class="project-img" style="
+					background-image: url('img/project/${projects[i].img}');
+				">
+				</div>
 				<div class="content flex">
 					<p>${projects[i].name}</p>
 					<p class="flex">
