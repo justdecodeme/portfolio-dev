@@ -58,36 +58,8 @@ const projects = [
 		img: "change-bg.png",
 		codeUrl: "https://github.com/justdecodeme/js-practice-01-change-bg",
 		liveUrl: "https://justdecodeme.github.io/js-practice-01-change-bg/",
-		tags: ['html']
-	},
-	{
-		name: "Demo App",
-		img: "7.png",
-		codeUrl: "https://github.com/justdecodeme/periodic-table",
-		liveUrl: "https://justdecodeme.github.io/periodic-table/day-01-20-periodic-table.html",
-		tags: ['css', 'js']
-	},
-	{
-		name: "Demo App",
-		img: "8.png",
-		codeUrl: "https://github.com/justdecodeme/js-practice-01-change-bg",
-		liveUrl: "https://justdecodeme.github.io/js-practice-01-change-bg/",
 		tags: ['html', 'js']
-	},
-	{
-		name: "Demo App",
-		img: "5.png",
-		codeUrl: "https://github.com/justdecodeme/periodic-table",
-		liveUrl: "https://justdecodeme.github.io/periodic-table/day-01-20-periodic-table.html",
-		tags: ['js']
-	},
-	{
-		name: "Demo App",
-		img: "5.png",
-		codeUrl: "https://github.com/justdecodeme/periodic-table",
-		liveUrl: "https://justdecodeme.github.io/periodic-table/day-01-20-periodic-table.html",
-		tags: ['js']
-	},
+	}
 ];
 
 function renderProjects(tag) {
