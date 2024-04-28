@@ -43,14 +43,14 @@ const projects = [
 		name: 'ToDo App',
 		img: 'todo.png',
 		codeUrl: 'https://github.com/justdecodeme/portfolio-dev/tree/master/projects/todo',
-		liveUrl: 'https://justdecodeme.github.io/portfolio/projects/todo/',
+		liveUrl: 'https://justdecodeme.github.io/portfolio-dev/projects/todo/',
 		tags: ['html', 'css', 'js'],
 	},
 	{
 		name: 'Slider App',
 		img: 'slider.png',
 		codeUrl: 'https://github.com/justdecodeme/portfolio-dev/tree/master/projects/slider',
-		liveUrl: 'https://justdecodeme.github.io/portfolio/projects/slider/',
+		liveUrl: 'https://justdecodeme.github.io/portfolio-dev/projects/slider/',
 		tags: ['html', 'css', 'js'],
 	},
 	{
